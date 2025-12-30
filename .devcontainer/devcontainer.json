@@ -1,0 +1,53 @@
+{
+  "name": "GDDS Holx Development Environment",
+
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devenv",
+  "workspaceFolder": "/holx/devenv",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-containers",
+		"oven.bun-vscode",
+		"BeardedBear.beardedtheme",
+		"BeardedBear.beardedicons",
+		"miguelsolorio.symbols",
+		"WallabyJs.console-ninja",
+		"aaron-bond.better-comments",
+		"naumovs.color-highlight",
+		"mikestead.dotenv"
+      ],
+      "settings": {
+        // Feature settings
+		"github.copilot.nextEditSuggestions.enabled": true,
+		// UI settings
+		"workbench.iconTheme": "symbols",
+		"workbench.colorTheme": "Best Themes - Horizon",
+		// Behavior settings
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		// Typography settings
+		"editor.fontSize": 11,
+		"terminal.integrated.fontSize": 11,
+		"editor.lineHeight": 1.9,
+		"terminal.integrated.lineHeight": 1.7,
+		"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono, CaskaydiaCove Nerd Font, monospace",
+		"terminal.integrated.fontLigatures.enabled": true,
+		"editor.fontLigatures": true,
+		"editor.fontFamily": "CaskaydiaCove Nerd Font Mono, CaskaydiaCove Nerd Font, monospace, Fira Code, Consolas, 'Courier New', monospace",
+		"editor.fontWeight": "400",
+		"terminal.integrated.fontWeight": "400",
+		"terminal.integrated.gpuAcceleration": "on",
+        "terminal.integrated.defaultProfile.linux": "zsh"
+    }
+  }
+},
+  "postCreateCommand": "bash .devcontainer/installations.sh",
+  "remoteUser": "vscode",
+  "forwardPorts": [3000, 8080]
+}
