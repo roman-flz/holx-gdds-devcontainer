@@ -22,27 +22,31 @@
         "dsznajder.es7-react-js-snippets"
       ],
       "settings": {
-        "terminal.integrated.tabs.enableAnimation": true,
+        // Editor Settings
         "editor.cursorSmoothCaretAnimation": "off",
         "editor.smoothScrolling": false,
         "editor.cursorBlinking": "blink",
-        "workbench.reduceMotion": "auto",
-        "terminal.integrated.smoothScrolling": false,
-        "chat.agent.codeBlockProgress": true,
-        "github.copilot.nextEditSuggestions.enabled": true,
-        "workbench.iconTheme": "symbols",
-        "workbench.colorTheme": "Bearded Theme Black & Emerald Soft",
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
-        "editor.fontSize": 11,
-        "terminal.integrated.fontSize": 11,
         "editor.lineHeight": 1.9,
+        "editor.fontWeight": "400",
+        "editor.fontFamily": "CaskaydiaCove Nerd Font Mono, CaskaydiaCove Nerd Font, monospace, Fira Code, Consolas, 'Courier New', monospace",
+        "editor.fontSize": 11,
+        "editor.fontLigatures": true,
+        // Workbench Settings
+        "workbench.reduceMotion": "auto",
+        "workbench.iconTheme": "symbols",
+        "workbench.colorTheme": "Bearded Theme Black & Emerald Soft",
+        "chat.agent.codeBlockProgress": true,
+        // GitHub Copilot Settings
+        "github.copilot.nextEditSuggestions.enabled": true,
+        // Terminal Settings
+        "terminal.integrated.fontSize": 11,
         "terminal.integrated.lineHeight": 1.7,
         "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono, CaskaydiaCove Nerd Font, monospace",
         "terminal.integrated.fontLigatures.enabled": true,
-        "editor.fontLigatures": true,
-        "editor.fontFamily": "CaskaydiaCove Nerd Font Mono, CaskaydiaCove Nerd Font, monospace, Fira Code, Consolas, 'Courier New', monospace",
-        "editor.fontWeight": "400",
+        "terminal.integrated.smoothScrolling": false,
+        "terminal.integrated.tabs.enableAnimation": true,
         "terminal.integrated.fontWeight": "400",
         "terminal.integrated.gpuAcceleration": "on",
         "terminal.integrated.defaultProfile.linux": "zsh"
