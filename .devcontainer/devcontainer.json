@@ -1,5 +1,5 @@
 {
-  "name": "GDDS Holx Development Environment",
+  "name": "Holx GDDS Environment",
   "dockerComposeFile": "docker-compose.yml",
   "service": "holx-gdds",
   "workspaceFolder": "/holx-gdds",
